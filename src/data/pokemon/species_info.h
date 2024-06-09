@@ -82,6 +82,58 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .iconPalIndex = 1,
     },
 
+    [SPECIES_SPERTRIEB] =
+    {
+        .baseHP         = 50,
+        .baseAttack     = 30,
+        .baseDefense    = 40,
+        .baseSpeed      = 60,
+        .baseSpAttack   = 50,
+        .baseSpDefense  = 50,
+        .types = { TYPE_NORMAL, TYPE_NORMAL},
+        .catchRate = 120,
+        .expYield = 200,
+        .evYield_SpAttack = 1,
+        .genderRatio = PERCENT_FEMALE(50),
+        .eggCycles = 120,
+        .friendship = STANDARD_FRIENDSHIP,
+        .growthRate = GROWTH_MEDIUM_FAST,
+        .eggGroups = { EGG_GROUP_NO_EGGS_DISCOVERED, EGG_GROUP_NO_EGGS_DISCOVERED },
+        .abilities = { ABILITY_INSOMNIA, ABILITY_NONE, ABILITY_NONE },
+        .bodyColor = BODY_COLOR_YELLOW,
+        .speciesName = _("Spertrieb"),
+        .cryId = CRY_SPERTRIEB,
+        .natDexNum = NATIONAL_DEX_SPERTRIEB,
+        .categoryName = _("New Species"),
+        .height = 1,
+        .weight = 6,
+        .description = COMPOUND_STRING(
+            "It uses it's tiny feathers\n"
+            "to attack his prey."),
+        .pokemonScale = 256,
+        .pokemonOffset = 0,
+        .trainerScale = 290,
+        .trainerOffset = 2,
+        .frontPic = gMonFrontPic_Spertrieb,
+        .frontPicSize = MON_COORDS_SIZE(64, 64),
+        .frontPicYOffset = 0,
+        .frontAnimFrames = sAnims_Spertrieb,
+        .frontAnimId = ANIM_GROW_VIBRATE,
+        .frontAnimDelay = 15,
+        .enemyMonElevation = 6,
+        .backPic = gMonBackPic_Spertrieb,
+        .backPicSize = MON_COORDS_SIZE(64, 64),
+        .backPicYOffset = 0,
+        .backAnimId = BACK_ANIM_CONCAVE_ARC_SMALL,
+        .palette = gMonPalette_Spertrieb,
+        .shinyPalette = gMonShinyPalette_Spertrieb,
+        .iconSprite = gMonIcon_Spertrieb,
+        .iconPalIndex = 2,
+        FOOTPRINT(Spertrieb)
+        .levelUpLearnset = sSpertriebLevelUpLearnset,
+        .teachableLearnset = sSpertriebTeachableLearnset,
+    },
+
     /* You may add any custom species below this point based on the following structure: */
 
     /*

@@ -13065,6 +13065,13 @@ const u8 gMonFootprint_QuestionMark[] = INCBIN_U8("graphics/pokemon/question_mar
 #endif //P_FOOTPRINTS
 #endif //P_FAMILY_PECHARUNT
 
+    const u32 gMonFrontPic_Spertrieb[] = INCBIN_U32("graphics/pokemon/spertrieb/anim_front.4bpp.lz");
+    const u32 gMonBackPic_Spertrieb[] = INCBIN_U32("graphics/pokemon/spertrieb/back.4bpp.lz");
+    const u32 gMonPalette_Spertrieb[] = INCBIN_U32("graphics/pokemon/spertrieb/normal.gbapal.lz");
+    const u32 gMonShinyPalette_Spertrieb[] = INCBIN_U32("graphics/pokemon/spertrieb/shiny.gbapal.lz");
+    const u8 gMonIcon_Spertrieb[] = INCBIN_U8("graphics/pokemon/spertrieb/icon.4bpp");
+    const u8 gMonFootprint_Spertrieb[] = INCBIN_U8("graphics/pokemon/spertrieb/footprint.1bpp");
+
     const u32 gMonFrontPic_Egg[] = INCBIN_U32("graphics/pokemon/egg/anim_front.4bpp.lz");
     const u32 gMonPalette_Egg[] = INCBIN_U32("graphics/pokemon/egg/normal.gbapal.lz");
     const u8 gMonIcon_Egg[] = INCBIN_U8("graphics/pokemon/egg/icon.4bpp");

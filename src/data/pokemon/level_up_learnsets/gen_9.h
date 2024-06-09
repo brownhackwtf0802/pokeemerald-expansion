@@ -22474,3 +22474,10 @@ static const struct LevelUpMove sPecharuntLevelUpLearnset[] = {
 };
 #endif //P_FAMILY_PECHARUNT
 
+static const struct LevelUpMove sSpertriebLevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_GUST),
+    LEVEL_UP_MOVE( 1, MOVE_GROWL),
+    LEVEL_UP_MOVE( 3, MOVE_THUNDER_SHOCK),
+    LEVEL_UP_END
+};
+

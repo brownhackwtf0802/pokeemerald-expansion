@@ -6155,6 +6155,10 @@ Cry_Pecharunt::
 .endif @ P_FAMILY_PECHARUNT
 
 	.align 2
+Cry_Spertrieb::
+	.incbin "sound/direct_sound_samples/cries/spertrieb.bin"
+
+	.align 2
 DirectSoundWaveData_register_noise::
 	.incbin "sound/direct_sound_samples/register_noise.bin"
 
@@ -6389,3 +6393,4 @@ DirectSoundWaveData_sd90_classical_whistle::
 	.align 2
 DirectSoundWaveData_sd90_enhanced_delay_shaku::
 	.incbin "sound/direct_sound_samples/sd90_enhanced_delay_shaku.bin"
+

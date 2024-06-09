@@ -855,6 +855,7 @@ const u16 gPokedexOrder_Alphabetical[] =
     NATIONAL_DEX_SOLROCK,
     NATIONAL_DEX_SPEAROW,
     NATIONAL_DEX_SPECTRIER,
+    NATIONAL_DEX_SPERTRIEB,
     NATIONAL_DEX_SPEWPA,
     NATIONAL_DEX_SPHEAL,
     NATIONAL_DEX_SPIDOPS,
@@ -1056,6 +1057,7 @@ const u16 gPokedexOrder_Alphabetical[] =
 const u16 gPokedexOrder_Weight[] =
 {
     // 0.0 - 21.8 lbs / 0.0 - 9.9 kg
+    NATIONAL_DEX_SPERTRIEB,
     NATIONAL_DEX_GASTLY,
     NATIONAL_DEX_HAUNTER,
     NATIONAL_DEX_FLABEBE,//_RED_FLOWER,
@@ -2937,6 +2939,7 @@ const u16 gPokedexOrder_Weight[] =
 const u16 gPokedexOrder_Height[] =
 {
     // 0'04" / 0.1m
+    NATIONAL_DEX_SPERTRIEB,
     NATIONAL_DEX_JOLTIK,
     NATIONAL_DEX_FLABEBE,//_RED_FLOWER,
     //NATIONAL_DEX_FLABEBE_YELLOW_FLOWER,
