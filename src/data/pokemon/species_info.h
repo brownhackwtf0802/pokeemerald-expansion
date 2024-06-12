@@ -128,7 +128,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .palette = gMonPalette_Spertrieb,
         .shinyPalette = gMonShinyPalette_Spertrieb,
         .iconSprite = gMonIcon_Spertrieb,
-        .iconPalIndex = 2,
+        .iconPalIndex = 0,
         FOOTPRINT(Spertrieb)
         .levelUpLearnset = sSpertriebLevelUpLearnset,
         .teachableLearnset = sSpertriebTeachableLearnset,
