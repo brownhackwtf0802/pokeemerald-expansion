@@ -14,6 +14,11 @@ Route101_OnFrame:
 	map_script_2 VAR_ROUTE101_STATE, 0, Route101_EventScript_HideMapNamePopup
 	.2byte 0
 
+Route101_EventScript_TrainerLass::
+	trainerbattle_single TRAINER_ROUTE_101, Route102_Text_TianaIntro, Route102_Text_TianaDefeated
+	msgbox Route102_Text_TianaPostBattle, MSGBOX_AUTOCLOSE
+	end
+
 Route101_EventScript_HideMapNamePopup::
 	setflag FLAG_HIDE_MAP_NAME_POPUP
 	setvar VAR_ROUTE101_STATE, 1
@@ -299,4 +304,5 @@ Route101_Text_WildPokemonInTallGrass:
 Route101_Text_RouteSign:
 	.string "ROUTE 101\n"
 	.string "{UP_ARROW} OLDALE TOWN$"
+
 

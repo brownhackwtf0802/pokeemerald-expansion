@@ -10269,4 +10269,16 @@ const struct Trainer gTrainers[] = {
         .aiFlags = 0,
         .party = TRAINER_PARTY(sParty_MayLinkPlaceholder),
     },
+
+    [TRAINER_ROUTE_101] =
+    {
+        .trainerClass = TRAINER_CLASS_LASS,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE,
+        .trainerPic = TRAINER_PIC_LASS,
+        .trainerName= _("Britney"),
+        .items = {ITEM_POTION},
+        .doubleBattle = FALSE,
+        .aiFlags = 0,
+        .party = TRAINER_PARTY(sParty_TrainerRoute101),
+    },
 };
